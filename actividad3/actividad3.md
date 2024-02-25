@@ -2,7 +2,7 @@ Actividad 3
 
 Explicación
 
-Primero, crea un script llamado saludo.sh que realizará la tarea especificada. Puedes ubicarlo en /usr/local/bin/ por ejemplo:
+Crear un script llamado saludo.sh. Ubicarlo en /usr/local/bin/:
 
 #!/bin/bash
 while true
@@ -11,11 +11,11 @@ do
     sleep 1
 done
 
-Guardar este script como saludo.sh en /usr/local/bin/ y asegúrate de darle permisos de ejecución:
+Guardar este script como saludo.sh en /usr/local/bin/ y brindar permisos de ejecución:
 sudo chmod +x /usr/local/bin/saludo.sh
 
 Crear el systemd unit
-Crear un archivo de unidad systemd para el servicio. Puedes llamarlo saludo.service y ubicarlo en /etc/systemd/system/:
+Crear un archivo de unidad systemd para el servicio.
 
 [Unit]
 Description=Saludo Service
